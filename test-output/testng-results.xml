@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25187" started-at="2020-07-17T18:39:28Z" finished-at="2020-07-17T18:39:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25187" started-at="2020-07-17T18:39:28Z" finished-at="2020-07-17T18:39:53Z">
+      <class name="com.testngconcepts.com.DataProviderConcept">
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.testngconcepts.com.DataProviderConcept@4cf7cf]" name="init_Setup" is-config="true" duration-ms="11349" started-at="2020-07-17T18:39:28Z" finished-at="2020-07-17T18:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="loginApplication(java.lang.String, java.lang.String)[pri:0, instance:com.testngconcepts.com.DataProviderConcept@4cf7cf]" name="loginApplication" duration-ms="2931" started-at="2020-07-17T18:39:40Z" data-provider="keepData" finished-at="2020-07-17T18:39:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumtraining1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngconcepts.com.DataProviderConcept@4cf7cf]" name="tearDown" is-config="true" duration-ms="792" started-at="2020-07-17T18:39:43Z" finished-at="2020-07-17T18:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="init_Setup()[pri:0, instance:com.testngconcepts.com.DataProviderConcept@4cf7cf]" name="init_Setup" is-config="true" duration-ms="8853" started-at="2020-07-17T18:39:43Z" finished-at="2020-07-17T18:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init_Setup -->
+        <test-method status="PASS" signature="loginApplication(java.lang.String, java.lang.String)[pri:0, instance:com.testngconcepts.com.DataProviderConcept@4cf7cf]" name="loginApplication" duration-ms="452" started-at="2020-07-17T18:39:52Z" data-provider="keepData" finished-at="2020-07-17T18:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumtraining1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testngconcepts.com.DataProviderConcept@4cf7cf]" name="tearDown" is-config="true" duration-ms="755" started-at="2020-07-17T18:39:53Z" finished-at="2020-07-17T18:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testngconcepts.com.DataProviderConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
